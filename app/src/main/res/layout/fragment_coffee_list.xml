@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".coffee_list">
+
+    <ImageView
+        android:id="@+id/gambar_kopi_01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/judul_kopi_01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="32dp"
+        android:text="Coffee 01"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/gambar_kopi_01"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/deskripsi_kopi_01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="24dp"
+        android:lines="3"
+        android:maxLines="3"
+        android:text="Lorem ipsum dolor sit\namet,consectetur\nadipiscing elit."
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/gambar_kopi_01"
+        app:layout_constraintTop_toBottomOf="@+id/judul_kopi_01" />
+
+    <ImageView
+        android:id="@+id/gambar_kopi_02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gambar_kopi_01"
+        tools:src="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/judul_kopi_02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="32dp"
+        android:text="Coffee 02"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/gambar_kopi_02"
+        app:layout_constraintTop_toBottomOf="@+id/gambar_kopi_01" />
+
+    <TextView
+        android:id="@+id/deskripsi_kopi_02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="24dp"
+        android:lines="3"
+        android:maxLines="3"
+        android:text="Lorem ipsum dolor sit\namet,consectetur\nadipiscing elit."
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/gambar_kopi_02"
+        app:layout_constraintTop_toBottomOf="@+id/judul_kopi_02" />
+
+    <ImageView
+        android:id="@+id/gambar_kopi_03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gambar_kopi_02"
+        tools:src="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/judul_kopi_03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="32dp"
+        android:text="Coffee 03"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/gambar_kopi_03"
+        app:layout_constraintTop_toBottomOf="@+id/gambar_kopi_02" />
+
+    <TextView
+        android:id="@+id/deskripsi_kopi_04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="24dp"
+        android:lines="3"
+        android:maxLines="3"
+        android:text="Lorem ipsum dolor sit\namet,consectetur\nadipiscing elit."
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/gambar_kopi_03"
+        app:layout_constraintTop_toBottomOf="@+id/judul_kopi_03" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
